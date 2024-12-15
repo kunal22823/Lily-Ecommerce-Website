@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="sidebar">
+            <h2>Admin Panel</h2>
+            <nav>
+                <ul>
+                    <li><a href="#update-product">Update Product</a></li>
+                    <li><a href="/admin">All Users</a></li>
+                    <li><a href="#orders">Orders</a></li>
+                    <li><a href="#logout">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Dashboard</h1>
+            </header>
+        
+        <section id="all-users">
+            <h2>All Users</h2>
+            <p id="countUser"></p>
+            <div id="user-list">
+                <!-- Users will be displayed here dynamically -->
+            </div>
+        </section>
+    </main>
+    </div>
+
+    <!-- Template for User Item -->
+    <template id="user-template">
+        <div class="user-item">
+            <p><strong>First Name:</strong> <span class="user-firstname"></span></p>
+            <p><strong>Last Name:</strong> <span class="user-lastname"></span></p>
+            <p><strong>Email:</strong> <span class="user-email"></span></p>
+            <p><strong>Contact:</strong> <span class="user-contact"></span></p>
+            <hr>
+        </div>
+    </template>
+
+   
+    
+</body>
+<script type="module" src="../JS/Data Rendering/admin.js"></script>
+</html>

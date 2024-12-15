@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Spartan"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <a href="#"><img src="./Images/HomeImages/logo2.png" alt="logo" class="logo"></a>
+  
+      <div class="nav">
+          <ul id="navbar">
+              <li><a href="/">Home</a></li>
+              <li class="ddl">
+                  <a href="#">Plants<i class="fa-solid fa-angle-down"></i></a>
+                  <div class="ddl-plants">
+                      <a href="./indoorplant.html">Indoor Plants</a>
+                      <a href="./outdoor.html">Outdoor Plants</a>
+                      <a href="./flowerPlants.html">Flowering Plants</a>
+                  </div>
+              </li>
+              <li><a href="ceramicPots.html">Ceramic Pots</a></li>
+              <li><a href="./aboutus.html">About Us</a></li>
+              <li><a href="./addToCart.html" id="pad-cart"><i class="fa-solid fa-cart-shopping fa-bounce fa-xl" style="color: #000000;"></i></a></li>
+              <li class="user-menu">
+                <div class="user">
+                  <a href="#" id="user-link"><i id="user-icon" class="fa-solid fa-circle-user fa-2xl" style="color: #087200; cursor: pointer;"></i></a>
+                  <p id="welcomeMessage" style="margin: 0.5rem;"></p>
+                </div>
+                  <div class="dropdown-menu">
+                      <a href="./login.html" id="login"><i class="fa-solid fa-arrow-right-to-bracket"></i>Log In</a>
+                      <a href="./register.html" id="register"><i class="fa-solid fa-address-card"></i>Register</a>
+                      <a href="/logout" id="logout" style="display: none"><i class="fa-solid fa-arrow-right-from-bracket"></i>Log Out</a>
+                  </div>
+              </li>
+              <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+          </ul>
+      </div>
+      <div id="mobilenav">
+          <a href="./addToCart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+  </section>
+  
+
+    <div class="signUp">
+      <div class="login-container">
+        <div class="form-container">
+          <div class="signUp-header">
+            <img src="../Images/HomeImages/logo2.png" alt="" />
+            <h1>Welcome Back To Lily !</h1>
+            <h1 style="margin-top: 0.5rem">Log In</h1>
+          </div>
+          <form action="/login.html" method="post">
+            <div class="loginFields">
+              <label for="Email">Email:</label>
+              <input type="text" id="email" required name="email" />
+
+              <label for="password">Password:</label>
+              <input type="password" id="password" required name="password" />
+
+            </div>
+            <div class="register-btn">
+              <button type="submit">Log In</button>
+              <p>
+                Don't Have An Account ?<a href="./register.html">Sign Up</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot">
+        <div class="col">
+          <h4>About Us</h4>
+          <p>Our Story</p>
+          <p>Contact Us</p>
+          <p>FAQs</p>
+        </div>
+
+        <div class="col-1">
+          <h4>Get In Touch</h4>
+          <p><strong>Contact : </strong>+91-9129-9129-91</p>
+          <p><strong>Email : </strong>support@lily.com</p>
+        </div>
+
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="follow-icon">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
