@@ -12,10 +12,7 @@ Lily - E-Commerce Website of Plants is an online platform designed to promote pl
    ```
 
 2. **Navigate to the Backend Directory**  
-   Move into the backend directory:
-   ```bash
-   cd PlantBackend
-   ```
+   Move into the root directory:
 
 3. **Install Dependencies**  
    Install all the required dependencies for the project using npm:
